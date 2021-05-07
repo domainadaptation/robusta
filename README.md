@@ -6,14 +6,14 @@ This repo contains a growing collection of helper functions, tools and methods f
 The focus is on simple methods that work at scale.
 
 We currently have the following features available:
-- [`examples/batchnorm`](/examples/batchnorm): A reference implementation of batch norm adaptation used by Schneider, Rusak *et al.* (NeurIPS 2020)
-- [`examples/selflearning`](/examples/selflearning): A reference implementation of self learning with robust pseudo labeling used by Rusak, Schneider *et al.* (arxiv 2021)
-- [`examples/imagenet_d`](/examples/imagenet_d): Example runs on the ImageNet-D dataset used by Rusak, Schneider *et al.* (arxiv 2021)
+- [`examples/batchnorm`](https://github.com/bethgelab/robustness/examples/batchnorm): A reference implementation of batch norm adaptation used by Schneider, Rusak *et al.* (NeurIPS 2020)
+- [`examples/selflearning`](https://github.com/bethgelab/robustness/examples/selflearning): A reference implementation of self learning with robust pseudo labeling used by Rusak, Schneider *et al.* (arxiv 2021)
+- [`examples/imagenet_d`](https://github.com/bethgelab/robustness/examples/imagenet_d): Example runs on the ImageNet-D dataset used by Rusak, Schneider *et al.* (arxiv 2021)
 
 Planned features for future releases are (please open an issue if you can think of additional interesting parts to add):
 - Helper functions for robustness datasets like ImageNet-A, ImageNet-R and ImageNet-C
-- [`examples/clip`](/examples/clip): Robustness evaluation for [CLIP](https://github.com/openai/CLIP.git), Radford *et al.* (2021)
-- [`examples/dino`](/examples/dino): Robustness evaluation for [DINO](https://github.com/facebookresearch/dino), Caron *et al.* (2021)
+- [`examples/clip`](https://github.com/bethgelab/robustness/examples/clip): Robustness evaluation for [CLIP](https://github.com/openai/CLIP.git), Radford *et al.* (2021)
+- [`examples/dino`](https://github.com/bethgelab/robustness/examples/dino): Robustness evaluation for [DINO](https://github.com/facebookresearch/dino), Caron *et al.* (2021)
     - Blog Post with robustness results: https://stes.io/dino/
 
 ## News
@@ -116,7 +116,7 @@ Test-time adaptation with self-learning improves robustness of large-scale compu
 
 ## License
 
-Unless noted otherwise, code in this repo is released under an [Apache 2.0](/LICENSE) license. Some parts of the implementation use third party code. We typically indicate this in the file header or in the methods directly, and include the original license in the [NOTICE](/NOTICE) file.
+Unless noted otherwise, code in this repo is released under an [Apache 2.0](https://github.com/bethgelab/robustness/LICENSE) license. Some parts of the implementation use third party code. We typically indicate this in the file header or in the methods directly, and include the original license in the [NOTICE](https://github.com/bethgelab/robustness/NOTICE) file.
 
 This repo does not contain the full code-base used in [Rusak, Schneider et al. (2021)](https://domainadaptation.org/selflearing) and is instead currently limited to a reference re-implementation for robust-pseudo labeling and entropy minimization. A full version of the codebase might be independently released in the future.
 
